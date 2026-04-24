@@ -1,0 +1,11 @@
+services:
+  postgres:
+    image: postgres:16.5-alpine
+    container_name: board-api-postgres
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: board-api-db

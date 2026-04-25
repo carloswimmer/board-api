@@ -137,6 +137,10 @@ Para cada operação no SPEC, tenha pelo menos:
 - seed de issues/comments/likes
 - banco isolado por suite/execução
 
+### 3.3 TDD workflow
+
+- follow .cursor/TDD_PLAN.md
+
 ---
 
 ## 4) Milestone 4 — Modelo de dados e migrações

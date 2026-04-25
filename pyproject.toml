@@ -3,7 +3,7 @@ name = "board-api"
 version = "0.1.0"
 description = "GraphQL backend for the Board app built with FastAPI, Strawberry, PostgreSQL, and GitHub auth."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.12"
 dependencies = [
     "alembic>=1.16.5",
     "authlib>=1.6.11",
@@ -29,7 +29,7 @@ dev = [
 
 [tool.ruff]
 line-length = 100
-target-version = "py39"
+target-version = "py312"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]
@@ -41,7 +41,7 @@ indent-style = "space"
 docstring-code-format = true
 
 [tool.mypy]
-python_version = "3.9"
+python_version = "3.12"
 warn_unused_configs = true
 warn_redundant_casts = true
 warn_unused_ignores = true

@@ -66,8 +66,10 @@ dmypy.json
 
 # dotenv
 .env
+.env.test
 .env.*
 !.env.example
+!.env.test.example
 
 # Jupyter
 .ipynb_checkpoints/

@@ -1,6 +1,6 @@
 def main():
-    print("Hello from board-api!")
+    print('Hello from board-api!')
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
